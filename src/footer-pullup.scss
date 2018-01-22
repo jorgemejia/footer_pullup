@@ -1,0 +1,50 @@
+.ios, .md {
+
+  footer-pullup {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 50 !important;
+    background-color: transparent;
+
+    .content-ios{
+      background-color: transparent;
+    }
+    //box-shadow: 0px -4px 22px -8px rgba(0,0,0,0.75);
+  }
+
+  ion-pullup-tab{
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 129px;
+    height: 14px;
+    background: #387ef5;
+    color: white;
+    border-radius: 20px 20px 0 0;
+    margin: 0 auto;
+    box-shadow: 0px -2px 2px #666;
+    top: 36px;
+    left: 34%;
+  }
+
+}
+
+.no-scroll {
+  .scroll-content {
+    overflow-y: hidden;
+  }
+  .swiper-slide{
+    overflow-y: hidden !important;
+  }
+}
+
+.scroll {
+  .scroll-content {
+    overflow-y: scroll;
+  }
+  .swiper-slide{
+    overflow-y: scroll !important;
+  }
+}
